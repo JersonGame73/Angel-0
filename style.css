@@ -26,12 +26,19 @@ form .tex_box{
 }
 input{
     background: none;
-    color: #ffb700;
+    color: #ff8000;
     font-size: 18px;
     display: block;
     width: 402px;
     border: none;
-    border-bottom: 2px solid #ffb700;
+    border-bottom: 2px solid #ff8000;
     outline: none;
 
+}
+label{
+    color: #ff8000;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
 }
