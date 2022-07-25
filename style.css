@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Contenidos{
+    width: 400px;
+    background-color: #FFC300;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+.Titulo{
+    font-size: 30px;
+    color: #581845;
+}
