@@ -6,14 +6,17 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+body{padding: 90px 20px 0px;}
 nav{
-    background: #ff8000;
-    height: 80px;
     width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
+header{background-color: #ff8000;height: 80px;position: fixed;width: 100%;top: 0;left: 0;}
 }
 .enlace{
     position: absolute;
-    padding: 20px 50px;
+    padding: 20px 30px;
 
 }
 .checkbtn{
@@ -21,7 +24,6 @@ nav{
     float: right;
     line-height: 80px;
     cursor: pointer;
-    display: none;
 
 }
 label img{
@@ -30,8 +32,11 @@ label img{
     margin: 25px;
 }
 .logo{
-    height: 40px;
+    height: 60px;
     border-radius: 10px;
+    margin: 10px 30px;
+    position: none;
+
 }
 nav ul{
     float: right;
