@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Servicio</title>
+    <link rel="stylesheet" href="/Solicitar Servicio/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <form action="" method="post" id="1forn">
-        <div class="2forn">
-            <div class="title">
-                <h1>Angel-0</h1>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="/Recursos/Angel-0 64x64-2.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="/index.html">Inicio</a></li>
+            <li><a href="/Solicitar Servicio/index.html">Solicitar Servicio</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="" method="post" id="1forn">
+            <div class="2form">
+                <div>
+                    <h1>Angel-0</h1>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="name" required><span class="barra"></span>
+                    <label class="titles" for="">Nombre Completo</label>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="phone" required><span class="barra"></span>
+                    <label class="titles" for="">Numero Celular</label>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="text" required><span class="barra"></span>
+                    <label class="titles" for="">Placa del Vehiculo</label>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="address" required><span class="barra"></span>
+                    <label class="titles" for="">Direccion Inicial</label>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="address" required><span class="barra"></span>
+                    <label class="titles" for="">Direccion Final</label>
+                </div>
+                <div class="tex_box">
+                    <input class="texto" type="text" required><span class="barra"></span>
+                    <label class="titles" for="">Informacion Adicional</label>
+                </div>
+                <button class="submit" type="submit">Solicitar Servicio</button>
             </div>
-            <div class="tex_box">
-                <input type="name" required><span class="barra"></span>
-                <label for="">Nombre Completo</label>
-            </div>
-            <div class="tex_box">
-                <input type="phone" required><span class="barra"></span>
-                <label for="">Numero Celular</label>
-            </div>
-            <div class="tex_box">
-                <input type="text" required><span class="barra"></span>
-                <label for="">Placa del Vehiculo</label>
-            </div>
-            <div class="tex_box">
-                <input type="address" required><span class="barra"></span>
-                <label for="">Direccion Inicial</label>
-            </div>
-            <div class="tex_box">
-                <input type="address" required><span class="barra"></span>
-                <label for="">Direccion Final</label>
-            </div>
-            <div class="tex_box">
-                <input type="text" required><span class="barra"></span>
-                <label for="">Informacion Adicional</label>
-            </div>
-            <button type="submit">Solicitar Servicio</button>
-        </div>
-    </form>
+        </form>
+    </section>
 </body>
 </html>
