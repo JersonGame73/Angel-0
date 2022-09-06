@@ -1,12 +1,12 @@
 <?php
 
     //recuperar datos
-    $nombre=$_POST['nombre.completo'];
-    $celular=$_POST['numero.celular'];
-    $placa=$_POST['placa.vehiculo'];
-    $direccionin=$_POST['direccion.in'];
-    $direccionfin=$_POST['direccion.fin'];
-    $infoadd=$_POST['info.add'];
+    $nombre=$_POST['nombrecompleto'];
+    $celular=$_POST['numerocelular'];
+    $placa=$_POST['placavehiculo'];
+    $direccionin=$_POST['direccionin'];
+    $direccionfin=$_POST['direccionfin'];
+    $infoadd=$_POST['infoadd'];
 
     //conectarnos con el servidor 
     $conectar = mysqli_connect("remotemysql.com:3306", "zan3VAgXqc", "NfKerm0qqC", "zan3VAgXqc")or die("No hay conexion");
