@@ -9,7 +9,7 @@
     $infoadd=$_POST['info.add'];
 
     //conectarnos con el servidor 
-    $conectar = mysqli_connect("localhost", "root", "root", "Angel-0")or die("No hay conexion");
+    $conectar = mysqli_connect("remotemysql.com:3306", "zan3VAgXqc", "NfKerm0qqC", "zan3VAgXqc")or die("No hay conexion");
 
     //ingresar a la base 
 
