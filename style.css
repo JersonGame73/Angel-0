@@ -106,3 +106,44 @@ section{
         left:0;
     }
 }
+/* final de la pagina */
+
+.paginaconten{
+    height: 0px;
+    padding: 0px;
+}
+
+
+.pagina{
+    min-height: 500px;
+}
+
+.findepagina{
+    background: #ff8000;
+    padding: 50px 50px;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.h1titulo{
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    cursor: auto;
+    padding-top: 20px;
+}
+
+.fa-brands{
+    margin: 10px;
+    font-size: 31px;
+    padding: 10px;
+    width: 48px;
+    height: 48px;
+    background: brown;
+    border-radius: 10px;
+    display: inline-flex;
+    color: white;
+}
