@@ -14,6 +14,7 @@ nav{
     background: #ff8000;
     height: 100px;
     width: 100%;
+    position: fixed;
 }
 .enlace{
     position: absolute;
@@ -67,11 +68,15 @@ section{
 
 
 @media (max-width: 950px){
+    div.info1{
+        margin-top: 80px;
+    }
     form{
         width: 400px;
     }
     nav{
         height: 80px;
+        top: 0;
     }
     .logo{
         height: 40px;
@@ -105,6 +110,53 @@ section{
     #check:checked ~ ul{
         left:0;
     }
+    .cruadricula{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .pagina{
+        min-height: 750px;
+    }
+}
+/* pagina general */
+section.paginaconten{
+    justify-content: center;
+    align-items: center;
+}
+
+/* cuadritos */
+div.info1 .h1titulo{
+    font-size: 30px;
+} 
+div.info1{
+    max-width: 100%;
+    align-items: center;
+    margin-top: 80px;
+}
+.cruadricula{
+    display: flex;
+
+}
+section.cuadro1, section.cuadro2{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 410px;
+    height: 410px;
+}
+.cuadro1, .cuadro2{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+.cuadro1 img, .cuadro2 img{
+    justify-items: center;
+    width: 390px;
+    height: 390px;
+    border-radius: 10px;
+}
+.cruadricula h2, a{
+    color: white;
 }
 /* final de la pagina */
 
@@ -115,7 +167,7 @@ section{
 
 
 .pagina{
-    min-height: 500px;
+    min-height: 830px;
 }
 
 .findepagina{
